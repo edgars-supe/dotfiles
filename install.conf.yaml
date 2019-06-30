@@ -1,0 +1,7 @@
+- link:   
+    ~/.abcde.conf: .abcde.conf
+    ~/.freac: .freac
+    ~/.nanorc: .nanorc
+    ~/.vimrc: .vimrc
+    ~/.zshrc: .zshrc
+
