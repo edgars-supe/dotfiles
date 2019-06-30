@@ -1,1 +1,1 @@
-/home/edgars/.vimrc
+../.vimrc
