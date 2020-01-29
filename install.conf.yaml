@@ -2,6 +2,9 @@
     ~/.abcde.conf: .abcde.conf
     ~/.freac: .freac
     ~/.nanorc: .nanorc
+    ~/.oh-my-zsh: .oh-my-zsh
     ~/.vimrc: .vimrc
-    ~/.zshrc: .zshrc
+    ~/.zshrc: 
+        path: .zshrc
+        force: true
 
