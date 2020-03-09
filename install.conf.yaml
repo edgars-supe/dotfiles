@@ -4,6 +4,7 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - [zsh/fonts/install.sh, Installing Powerline fonts]
 
 - link:   
     ~/.abcde.conf: .abcde.conf
