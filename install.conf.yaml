@@ -1,3 +1,11 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+
 - link:   
     ~/.abcde.conf: .abcde.conf
     ~/.freac: .freac
@@ -11,5 +19,3 @@
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
 
-- shell:
-    - [git submodule update --init --recursive, Installing submodules]
