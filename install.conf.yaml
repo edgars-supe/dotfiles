@@ -3,18 +3,21 @@
         relink: true
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --remote, Installing submodules]
     - [zsh/fonts/install.sh, Installing Powerline fonts]
+    - [curl -s "https://get.sdkman.io" | bash, Installing SDKMAN!]
+
+- link:
+    ~/.zshrc: 
+        path: .zshrc
+        force: true
+    ~/.oh-my-zsh: .oh-my-zsh
 
 - link:   
     ~/.abcde.conf: .abcde.conf
     ~/.freac: .freac
     ~/.nanorc: .nanorc
-    ~/.oh-my-zsh: .oh-my-zsh
     ~/.vimrc: .vimrc
-    ~/.zshrc: 
-        path: .zshrc
-        force: true
     ~/.oh-my-zsh/custom/zsh-autosuggestions.zsh: zsh/zsh-autosuggestions.zsh
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
