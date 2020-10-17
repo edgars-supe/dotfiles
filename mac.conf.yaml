@@ -1,2 +1,8 @@
 - shell:
-    - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)", Installing Homebrew]
+    -
+     command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+     stdin: true
+     stdout: true
+     quiet: false
+     description: Installing Homebrew
+     stderr: true
