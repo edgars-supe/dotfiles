@@ -18,4 +18,5 @@
     ~/.oh-my-zsh/custom/zsh-autosuggestions.zsh: zsh/zsh-autosuggestions.zsh
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/alias.zsh: zsh/alias.zsh
 
