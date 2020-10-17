@@ -1,19 +1,19 @@
 [submodule "dotbot"]
     path = dotbot
-    url = git@github.com:anishathalye/dotbot.git
+    url = https://github.com/anishathalye/dotbot.git
 
 [submodule "oh-my-zsh"]
     path = .oh-my-zsh
-    url = git@github.com:ohmyzsh/ohmyzsh.git
+    url = https://github.com/ohmyzsh/ohmyzsh.git
 
 [submodule "zsh/zsh-autosuggestions"]
 	path = zsh/zsh-autosuggestions
-	url = git@github.com:zsh-users/zsh-autosuggestions.git
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
 
 [submodule "zsh/zsh-syntax-highlighting"]
 	path = zsh/zsh-syntax-highlighting
-	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 [submodule "zsh/fonts"]
 	path = zsh/fonts
-	url = git@github.com:powerline/fonts.git
+	url = https://github.com/powerline/fonts.git
