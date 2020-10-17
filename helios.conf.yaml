@@ -1,0 +1,4 @@
+- link:   
+    ~/.abcde.conf: .abcde.conf
+    ~/.freac: .freac
+    ~/.oh-my-zsh/custom/helios-alias.zsh: zsh/helios-alias.zsh
