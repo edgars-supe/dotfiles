@@ -6,6 +6,7 @@
     - [git submodule update --init --remote, Installing submodules]
     - [zsh/fonts/install.sh, Installing Powerline fonts]
     - [curl -s "https://get.sdkman.io" | bash, Installing SDKMAN!]
+    - [sudo apt install zsh, Installing zsh]
 
 - link:
     ~/.zshrc: 
